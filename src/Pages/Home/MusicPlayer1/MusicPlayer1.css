@@ -1,0 +1,834 @@
+.trackLine {
+    width: 100%;
+    height: 3px;
+    background: #000;
+    border-radius: 2px;
+    margin: 1rem 0;
+}
+
+.traLine1 {
+    width: 60%;
+    height: 5px;
+    background: #B68A1E;
+    border-radius: 2px;
+    position: relative;
+}
+
+.traLine1::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: #B68A1E;
+    border-radius: 12px;
+    left: 98%;
+    top: -5px;
+}
+
+.musicIcons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.trackPlayerBG {
+    background: #FFF3D7;
+}
+
+.musicPlayer1 {
+    padding: 1rem 0;
+}
+
+.musicText h3 {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.musicText h4 {
+    font-family: 'Nirmala UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0;
+}
+
+.optionDots {
+    cursor: pointer;
+    width: 4%;
+    position: absolute;
+    bottom: 75%;
+    right: 1%;
+    z-index: 2;
+}
+
+.shuffle,
+.trackDownload {
+    background: transparent;
+    border: none;
+}
+
+.topBorder {
+    border-top: 4px solid #B68A1E;
+}
+
+
+
+
+
+
+
+/* MusicPlayerSection 2 */
+
+.musicPlayer2 {
+    padding: 1.5rem 0;
+}
+
+.musicIcon1 {
+    background: transparent;
+    border: none;
+}
+
+.audiodata {
+    display: flex;
+    align-items: center;
+}
+
+.audioMiddle {
+    padding: 16px 0;
+}
+
+.audiodata img {
+    width: 50px;
+    padding-right: 12px;
+}
+
+
+
+
+
+/* radio Button */
+.LanguageSection {
+    background: #2C203F;
+    border-radius: 15px 15px 0 0;
+    transform: translateY(100%);
+    transition: 1s;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.languageData {
+    padding: 3rem 0;
+}
+
+.radioBtn .form-check-input {
+    width: 27px;
+    height: 26px;
+    margin-top: 0.25em;
+    vertical-align: top;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 2px solid #fff;
+    appearance: none;
+}
+
+.radioBtn .form-check-input:checked[type=radio] {
+    background-image: url(../../Images/radioTick.svg)
+}
+
+.radioBtn .form-check-input:checked {
+    background-color: transparent;
+    border-color: #fff;
+}
+
+.radioBtn .form-check-input[type=radio] {
+    border-radius: 0%;
+}
+
+.radioBtn .form-check {
+    display: flex;
+    min-height: 1.5rem;
+    margin-bottom: 0;
+    flex-direction: row;
+    align-items: center;
+    margin: 2rem;
+}
+
+.radioBtn label {
+    display: inline-block;
+}
+
+.radioBtn .form-check-input:focus {
+    border-color: #fff;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 0%);
+}
+
+.radioBtn span svg {
+    min-width: 40px;
+    margin: 0 1rem;
+}
+
+.languageHeading h2 {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31px;
+    line-height: 38px;
+    color: #fff;
+    padding-top: 1rem;
+    margin: 0;
+}
+
+
+.closeBtn {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-decoration: none;
+    color: #fff;
+    width: 149px;
+    height: 35px;
+    background: #B68A1E;
+    border-radius: 5px;
+    border: none;
+}
+
+/* .MusicPlayer {
+    scroll-behavior: inherit;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: white;
+} */
+
+.MusicPlayer {
+    position: absolute;
+    bottom: -3%;
+    width: 100%;
+    background: white;
+}
+
+
+
+
+/*  */
+
+/* Audio Player */
+/* .App {
+  font-family: sans-serif;
+  text-align: center;
+} */
+
+.rhap_header {
+    margin-bottom: 10px;
+}
+
+.rhap_footer {
+    margin-top: 5px;
+    display: none;
+}
+
+
+
+.rhap_progress-bar-show-download {
+    background-color: #000 !important;
+}
+
+.rhap_progress-filled {
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    background-color: #B68A1E !important;
+    border-radius: 2px;
+}
+
+.rhap_progress-indicator {
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 3;
+    width: 20px;
+    height: 20px;
+    margin-left: -10px;
+    top: -8px;
+    background: #B68A1E !important;
+    border-radius: 50px;
+    box-shadow: rgb(134 134 134 / 0%) 0 0 5px !important;
+}
+
+.rhap_download-progress {
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    background-color: #000 !important;
+    border-radius: 2px;
+}
+
+.rhap_progress-bar {
+    height: 3px !important;
+}
+
+.rhap_additional-controls svg path {
+    color: #000;
+}
+
+.rhap_volume-container svg path {
+    color: #000;
+}
+
+
+.rhap_progress-section {
+    padding: 5rem 2rem 4rem;
+    border-top: 5px solid #B68A1E;
+}
+
+.rhap_container {
+    padding: 0 !important;
+    box-shadow: 0 0 3px 0 rgb(0 0 0 / 0%) !important;
+}
+
+.rhap_stacked .rhap_controls-section {
+    margin-top: 0 !important;
+    padding: 3rem 2rem;
+    background: #FFF3D7;
+    box-shadow: 0px 4px 25px rgb(0 0 0 / 27%);
+}
+
+.rhap_volume-bar {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    height: 3px !important;
+    background: #000 !important;
+    border-radius: 2px;
+}
+
+.rhap_volume-indicator {
+    background: #000 !important;
+    box-shadow: rgb(134 134 134 / 0%) 0 0 3px !important;
+}
+
+
+.rhap_play-pause-button {
+    font-size: 58px !important;
+    width: 60px !important;
+    height: 60px !important;
+}
+
+button.rhap_button-clear.rhap_main-controls-button.rhap_play-pause-button svg {
+    width: 58px;
+}
+
+button.rhap_button-clear.rhap_main-controls-button.rhap_play-pause-button svg path {
+    fill: #B68A1E;
+}
+
+button.rhap_button-clear.rhap_main-controls-button.rhap_skip-button svg path {
+    fill: #333;
+}
+
+.rhap_time {
+    color: #000 !important;
+    font-size: 16px;
+}
+
+button.rhap_button-clear.rhap_main-controls-button.rhap_skip-button svg {
+    display: none;
+}
+
+button.rhap_button-clear.rhap_main-controls-button.rhap_skip-button {
+    background-image: url(../../Images/musicArrowLeft.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+button.rhap_button-clear.rhap_main-controls-button.rhap_skip-button[aria-label=Previous] {
+    background-image: url(../../Images/musicArrowLeft.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+button.rhap_button-clear.rhap_main-controls-button.rhap_skip-button[aria-label=Skip] {
+    background-image: url(../../Images/musicArrowRight.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+button.rhap_button-clear.rhap_main-controls-button.rhap_rewind-button svg {
+    display: none;
+}
+
+button.rhap_button-clear.rhap_main-controls-button.rhap_forward-button svg {
+    display: none;
+}
+
+button.rhap_button-clear.rhap_main-controls-button.rhap_forward-button {
+    background-image: url(../../Images/10SecRight.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+button.rhap_button-clear.rhap_main-controls-button.rhap_rewind-button {
+    background-image: url(../../Images/10SecLeft.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.rhap_header {
+    margin-bottom: 0;
+    position: absolute;
+    top: 16%;
+    left: 4%;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .trackLine {
+        width: 100%;
+        height: 3px;
+        background: #000;
+        border-radius: 2px;
+        margin: 1rem 0;
+    }
+
+    .traLine1 {
+        width: 60%;
+        height: 5px;
+        background: #B68A1E;
+        border-radius: 2px;
+        position: relative;
+    }
+
+    .traLine1::before {
+        content: "";
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        background: #B68A1E;
+        border-radius: 12px;
+        left: 98%;
+        top: -5px;
+    }
+
+    .musicIcons {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .trackPlayerBG {
+        background: #FFF3D7;
+    }
+
+    .musicPlayer1 {
+        padding: 1rem 0;
+    }
+
+    .musicText h3 {
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+    }
+
+    .musicText h4 {
+        font-family: 'Nirmala UI';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        margin: 0;
+    }
+
+    .optionDots {
+        cursor: pointer;
+        width: 4%;
+        position: absolute;
+        bottom: 75%;
+        right: 1%;
+        z-index: 2;
+    }
+
+    .shuffle,
+    .trackDownload {
+        background: transparent;
+        border: none;
+    }
+
+    .topBorder {
+        border-top: 4px solid #B68A1E;
+    }
+
+
+    /* MusicPlayerSection 2 */
+
+    .musicPlayer2 {
+        padding: 1.5rem 0;
+    }
+
+    .musicIcon1 {
+        background: transparent;
+        border: none;
+    }
+
+    .audiodata {
+        display: flex;
+        align-items: center;
+    }
+
+    .audioMiddle {
+        padding: 16px 0;
+    }
+
+    .audiodata img {
+        width: 50px;
+        padding-right: 12px;
+    }
+
+
+
+
+
+
+    /*  */
+
+    /* Audio Player */
+    /* .App {
+  font-family: sans-serif;
+  text-align: center;
+} */
+
+    .rhap_header {
+        margin-bottom: 10px;
+    }
+
+    .rhap_footer {
+        margin-top: 5px;
+        display: none;
+    }
+
+
+
+    .rhap_progress-bar-show-download {
+        background-color: #000 !important;
+    }
+
+    .rhap_progress-filled {
+        height: 100%;
+        position: absolute;
+        z-index: 2;
+        background-color: #B68A1E !important;
+        border-radius: 2px;
+    }
+
+    .rhap_progress-indicator {
+        box-sizing: border-box;
+        position: absolute;
+        z-index: 3;
+        width: 20px;
+        height: 20px;
+        margin-left: -10px;
+        top: -8px;
+        background: #B68A1E !important;
+        border-radius: 50px;
+        box-shadow: rgb(134 134 134 / 0%) 0 0 5px !important;
+    }
+
+    .rhap_download-progress {
+        height: 100%;
+        position: absolute;
+        z-index: 1;
+        background-color: #000 !important;
+        border-radius: 2px;
+    }
+
+    .rhap_progress-bar {
+        height: 3px !important;
+    }
+
+    .rhap_additional-controls svg path {
+        color: #000;
+    }
+
+    .rhap_volume-container svg path {
+        color: #000;
+    }
+
+
+    .rhap_progress-section {
+        padding: 5rem 2rem 4rem;
+        border-top: 5px solid #B68A1E;
+    }
+
+    .rhap_container {
+        padding: 0 !important;
+        box-shadow: 0 0 3px 0 rgb(0 0 0 / 0%) !important;
+    }
+
+    .rhap_stacked .rhap_controls-section {
+        margin-top: 0 !important;
+        padding: 3rem 2rem;
+        background: #FFF3D7;
+        box-shadow: 0px 4px 25px rgb(0 0 0 / 27%);
+    }
+
+    .rhap_volume-bar {
+        box-sizing: border-box;
+        position: relative;
+        width: 100%;
+        height: 3px !important;
+        background: #000 !important;
+        border-radius: 2px;
+    }
+
+    .rhap_volume-indicator {
+        background: #000 !important;
+        box-shadow: rgb(134 134 134 / 0%) 0 0 3px !important;
+    }
+
+
+    .rhap_play-pause-button {
+        font-size: 58px !important;
+        width: 60px !important;
+        height: 60px !important;
+    }
+
+    button.rhap_button-clear.rhap_main-controls-button.rhap_play-pause-button svg {
+        width: 58px;
+    }
+
+    button.rhap_button-clear.rhap_main-controls-button.rhap_play-pause-button svg path {
+        fill: #B68A1E;
+    }
+
+    button.rhap_button-clear.rhap_main-controls-button.rhap_skip-button svg path {
+        fill: #333;
+    }
+
+    .rhap_time {
+        color: #000 !important;
+        font-size: 16px;
+    }
+
+    button.rhap_button-clear.rhap_main-controls-button.rhap_skip-button svg {
+        display: none;
+    }
+
+    button.rhap_button-clear.rhap_main-controls-button.rhap_skip-button {
+        background-image: url(../../Images/musicArrowLeft.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    button.rhap_button-clear.rhap_main-controls-button.rhap_skip-button[aria-label=Previous] {
+        background-image: url(../../Images/musicArrowLeft.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    button.rhap_button-clear.rhap_main-controls-button.rhap_skip-button[aria-label=Skip] {
+        background-image: url(../../Images/musicArrowRight.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    button.rhap_button-clear.rhap_main-controls-button.rhap_rewind-button svg {
+        display: none;
+    }
+
+    button.rhap_button-clear.rhap_main-controls-button.rhap_forward-button svg {
+        display: none;
+    }
+
+    button.rhap_button-clear.rhap_main-controls-button.rhap_forward-button {
+        background-image: url(../../Images/10SecRight.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    button.rhap_button-clear.rhap_main-controls-button.rhap_rewind-button {
+        background-image: url(../../Images/10SecLeft.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    .rhap_header {
+        margin-bottom: 0;
+        position: absolute;
+        top: 16%;
+        left: 4%;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: 'Poppins';
+    }
+}
+
+@media (max-width: 576px) {
+    .rhap_stacked .rhap_controls-section {
+        padding: 3rem 28px;
+    }
+
+    .rhap_progress-section {
+        padding: 5rem 28px 4rem;
+    }
+
+    button.rhap_button-clear.rhap_main-controls-button.rhap_skip-button {
+        background-image: url(../../Images/musicArrowLeft.svg);
+        background-repeat: no-repeat;
+        background-size: 60%;
+    }
+
+    button.rhap_button-clear.rhap_main-controls-button.rhap_skip-button[aria-label=Previous] {
+        background-image: url(../../Images/musicArrowLeft.svg);
+        background-repeat: no-repeat;
+        background-size: 60%;
+        background-position: center;
+    }
+
+    button.rhap_button-clear.rhap_main-controls-button.rhap_skip-button[aria-label=Skip] {
+        background-image: url(../../Images/musicArrowRight.svg);
+        background-repeat: no-repeat;
+        background-size: 60%;
+        background-position: center;
+    }
+
+    button.rhap_button-clear.rhap_main-controls-button.rhap_forward-button {
+        background-image: url(../../Images/10SecRight.svg);
+        background-repeat: no-repeat;
+        background-size: 60%;
+        background-position: center;
+    }
+
+    button.rhap_button-clear.rhap_main-controls-button.rhap_rewind-button {
+        background-image: url(../../Images/10SecLeft.svg);
+        background-repeat: no-repeat;
+        background-size: 60%;
+        background-position: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .rhap_stacked .rhap_controls-section {
+        padding: 2rem 24px;
+    }
+
+    .rhap_progress-section {
+        padding: 4rem 24px 3rem;
+    }
+
+    .rhap_volume-controls {
+        display: flex;
+        flex: 0.6 0 auto !important;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .rhap_additional-controls {
+        display: flex;
+        flex: 0.5 0 auto !important;
+        align-items: center;
+    }
+
+    .optionDots {
+        cursor: pointer;
+        width: 4%;
+        position: absolute;
+        bottom: 77%;
+        right: 1%;
+        z-index: 2;
+    }
+}
+
+@media (max-width: 428px) {
+    .rhap_additional-controls {
+        display: flex;
+        flex: 0.5 0 auto !important;
+        align-items: center;
+    }
+
+    .rhap_volume-controls {
+        display: flex;
+        flex: 0.6 0 auto !important;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .rhap_header {
+        position: absolute;
+        top: 18%;
+        left: 5.5%;
+    }
+    
+    .optionDots {
+        cursor: pointer;
+        width: 4%;
+        position: absolute;
+        bottom: 77%;
+        right: 3%;
+        z-index: 2;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .rhap_stacked .rhap_controls-section {
+        padding: 4rem 16px 3rem;
+    }
+
+    .rhap_progress-section {
+        padding: 4rem 16px;
+    }
+
+    .rhap_volume-controls {
+        display: flex;
+        flex: 0.8 0 auto !important;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .rhap_header {
+        margin-bottom: 0;
+        position: absolute;
+        top: 14%;
+        left: 4.2%;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Poppins';
+    }
+
+    .optionDots {
+        cursor: pointer;
+        width: 4%;
+        position: absolute;
+        bottom: 80%;
+        right: 2%;
+        z-index: 2;
+    }
+}

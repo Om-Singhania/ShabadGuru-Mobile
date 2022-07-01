@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/ShabadGuru-Mobile/static/css/main.db89ff62.css",
+    "main.js": "/ShabadGuru-Mobile/static/js/main.1ecef5e2.js",
+    "static/js/787.5c20d500.chunk.js": "/ShabadGuru-Mobile/static/js/787.5c20d500.chunk.js",
+    "static/media/kirtanImg1.png": "/ShabadGuru-Mobile/static/media/kirtanImg1.7cca39ef7b8cc576ab7e.png",
+    "static/media/kirtanImg2.png": "/ShabadGuru-Mobile/static/media/kirtanImg2.3275163d4f1a8fe68740.png",
+    "static/media/instagram.svg": "/ShabadGuru-Mobile/static/media/instagram.82a00ecc5548eb5394b5e9b246f1e600.svg",
+    "static/media/10SecLeft.svg": "/ShabadGuru-Mobile/static/media/10SecLeft.0a9efb563d23d1bbed22.svg",
+    "static/media/10SecRight.svg": "/ShabadGuru-Mobile/static/media/10SecRight.0a475f8725f48c7c67eb.svg",
+    "static/media/twitter.svg": "/ShabadGuru-Mobile/static/media/twitter.1b229e099dfd13e42a187077b6a64027.svg",
+    "static/media/musicNavIcon.svg": "/ShabadGuru-Mobile/static/media/musicNavIcon.325512e06f9db93eaae57a00bf50677c.svg",
+    "static/media/fb.svg": "/ShabadGuru-Mobile/static/media/fb.f0a0dad57e74e70e5068ec27872792f1.svg",
+    "static/media/email.svg": "/ShabadGuru-Mobile/static/media/email.1b2bf55875e123f317a679d38eb11874.svg",
+    "static/media/youtube.svg": "/ShabadGuru-Mobile/static/media/youtube.4fdfe5effb36b54c3602d37c0366c559.svg",
+    "index.html": "/ShabadGuru-Mobile/index.html",
+    "static/media/linkedIn.svg": "/ShabadGuru-Mobile/static/media/linkedIn.b648363f81aa97a0894ff76ad271ea78.svg",
+    "static/media/musicArrowLeft.svg": "/ShabadGuru-Mobile/static/media/musicArrowLeft.8d4bfe56d39a09c6bef0.svg",
+    "static/media/musicArrowRight.svg": "/ShabadGuru-Mobile/static/media/musicArrowRight.a5ef4f2f1deaac58ce63.svg",
+    "static/media/trackIcon.svg": "/ShabadGuru-Mobile/static/media/trackIcon.14af3bc776fff1f09b037ae1b006ed13.svg",
+    "static/media/accordionArrow.svg": "/ShabadGuru-Mobile/static/media/accordionArrow.6a76dfd3b4ddf562316f.svg",
+    "static/media/lineImg.svg": "/ShabadGuru-Mobile/static/media/lineImg.f82249ad7f100ed8fcfc17adc6456d99.svg",
+    "static/media/raagNavArrow.svg": "/ShabadGuru-Mobile/static/media/raagNavArrow.22f31afa73bee9617b73d9d52fe42fef.svg",
+    "static/media/navDropdownArrow.svg": "/ShabadGuru-Mobile/static/media/navDropdownArrow.6ceeb091179fb7a7dfa5.svg",
+    "static/media/radioTick.svg": "/ShabadGuru-Mobile/static/media/radioTick.8210332e9f77935798b5.svg",
+    "main.db89ff62.css.map": "/ShabadGuru-Mobile/static/css/main.db89ff62.css.map",
+    "main.1ecef5e2.js.map": "/ShabadGuru-Mobile/static/js/main.1ecef5e2.js.map",
+    "787.5c20d500.chunk.js.map": "/ShabadGuru-Mobile/static/js/787.5c20d500.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db89ff62.css",
+    "static/js/main.1ecef5e2.js"
+  ]
+}

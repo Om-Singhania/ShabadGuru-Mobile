@@ -112,7 +112,7 @@ export default function Navbar(props) {
                             </Link >
                         </a> */}
 
-                        <Link to='/' className=''>
+                        <Link to='/ShabadGuru-Mobile' className=''>
                             <img src={props.centerImage} alt="" />
                         </Link >
 
@@ -137,7 +137,7 @@ export default function Navbar(props) {
                     <div className="outerShadow position-relative">
                         <div id="mySidenav" className="sidenav">
                             <div className="sideNavLinks">
-                                <Link to="/">Home</Link >
+                                <Link to='/ShabadGuru-Mobile'>Home</Link >
 
                                 <div className="accordion accordion-flush sideNavAccordion" id="accordionFlushExample">
                                     <div className="accordion-item sideNavAccor">

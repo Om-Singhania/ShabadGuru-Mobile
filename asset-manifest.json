@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ShabadGuru-Mobile/static/css/main.db89ff62.css",
-    "main.js": "/ShabadGuru-Mobile/static/js/main.61d35e90.js",
+    "main.js": "/ShabadGuru-Mobile/static/js/main.1ecef5e2.js",
     "static/js/787.5c20d500.chunk.js": "/ShabadGuru-Mobile/static/js/787.5c20d500.chunk.js",
     "static/media/kirtanImg1.png": "/ShabadGuru-Mobile/static/media/kirtanImg1.7cca39ef7b8cc576ab7e.png",
     "static/media/kirtanImg2.png": "/ShabadGuru-Mobile/static/media/kirtanImg2.3275163d4f1a8fe68740.png",
@@ -24,11 +24,11 @@
     "static/media/navDropdownArrow.svg": "/ShabadGuru-Mobile/static/media/navDropdownArrow.6ceeb091179fb7a7dfa5.svg",
     "static/media/radioTick.svg": "/ShabadGuru-Mobile/static/media/radioTick.8210332e9f77935798b5.svg",
     "main.db89ff62.css.map": "/ShabadGuru-Mobile/static/css/main.db89ff62.css.map",
-    "main.61d35e90.js.map": "/ShabadGuru-Mobile/static/js/main.61d35e90.js.map",
+    "main.1ecef5e2.js.map": "/ShabadGuru-Mobile/static/js/main.1ecef5e2.js.map",
     "787.5c20d500.chunk.js.map": "/ShabadGuru-Mobile/static/js/787.5c20d500.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.db89ff62.css",
-    "static/js/main.61d35e90.js"
+    "static/js/main.1ecef5e2.js"
   ]
 }

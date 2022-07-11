@@ -43,10 +43,15 @@ button.subscribeBtn {
     background: #B68A1E;
     width: 100%;
     max-width: 200px;
-    height: 43px;
+    height: 50px;
     padding: 16px 0;
     border-radius: 5px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
 }
 
 input.NewsletterInput:focus-visible {
@@ -92,14 +97,12 @@ input.NewsletterInput:focus-visible {
     button.subscribeBtn {
         font-family: 'Poppins';
         font-weight: 600;
-        font-size: 20px;
-        line-height: 28px;
+        font-size: 16px;
+        line-height: 20px;
         border: none;
         color: #fff;
         background: #B68A1E;
         width: 100%;
-        max-width: 200px;
-        height: 43px;
         padding: 16px 0;
         border-radius: 5px;
         cursor: pointer;
@@ -111,7 +114,7 @@ input.NewsletterInput:focus-visible {
     .newsLetter {
         padding: 3rem 0;
     }
-    
+
     input.NewsletterInput {
         padding: 18px 16px;
         margin: 20px 0 32px;
@@ -184,4 +187,3 @@ input.NewsletterInput:focus-visible {
         border-radius: 5px;
     }
 }
-

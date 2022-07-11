@@ -34,7 +34,7 @@ export default function Pages() {
       {/* <DynamicMusicPlayer /> */}
 
       <Routes>
-        <Route exact path="/" element={<Home />}  />
+        <Route exact path="/ShabadGuru-Mobile" element={<Home />}  />
       </Routes>
 
       <Routes>
